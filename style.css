@@ -92,14 +92,14 @@ margin: 50px;
 }
 
 #formation{
-	list-style-image: url('img/cap.png');
+	list-style-image: url('cap.png');
 	
 }
 #experiencepro{
-	list-style-image: url('img/pencil.png');
+	list-style-image:url('pencil.png');
 }
 #recomondation{
-	list-style-image: url('img/suitcase.png');
+	list-style-image: url('suitcase.png');
 }
 .un{
 	margin-left: 50px;
