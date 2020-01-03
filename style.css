@@ -1,0 +1,151 @@
+body{
+	width: auto;
+	margin: auto;
+	font-family: 'PT Serif', serif;
+	display: flex;
+}
+
+aside{
+	background-color: #f1c40f;
+	flex: 0.4;
+	
+}
+
+.img{
+    
+    text-align: center;
+    margin: 20px;
+    
+}
+
+#profil{
+    border-radius: 70%;
+    box-shadow: 1px 1px 3px;
+    
+
+}
+
+aside h4{
+    background-color: #404040;
+    color: #f1c40f;
+    text-align: center;
+
+}
+
+aside p {
+    text-align: justify;
+    margin-left: 25px;
+    margin-right:25px;
+    
+}
+#loisirs{
+	display: flex;
+	align-items: center;
+}
+#container{
+	flex: 1;
+	margin-left: 50px;
+}
+
+.bloc{
+	display: flex;
+	justify-content: space-around;
+
+}
+	
+.grdBloc{
+	display: flex;
+	justify-content: space-around;
+
+}
+#prenom {
+    color: #f1c40f;
+}
+header {
+font-size: 25px;
+margin: 50px;
+}
+
+ #petiteligne {
+
+	border-bottom: solid;
+	border-color: #f1c40f;
+	margin: 0px;
+
+}
+.ligne {
+	border-color: #f1c40f;
+	margin-left: 50px;
+}
+.puce{
+	
+	margin: auto;
+	padding-right: 10px;
+}
+
+.date{
+	flex: 0.5;
+	margin-left: 50px;
+}
+.titreDeFormation{
+	flex: 1;
+}
+
+#formation{
+	list-style-image: url('img/cap.png');
+	
+}
+#experiencepro{
+	list-style-image: url('img/pencil.png');
+}
+#recomondation{
+	list-style-image: url('img/suitcase.png');
+}
+.un{
+	margin-left: 50px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    body
+    {
+    	width: auto;
+    	flex-direction: column-reverse;
+	    font-family: 'PT Serif', serif;
+    }
+   #profil
+   {
+    border-radius: 1px;
+    box-shadow: 1px 1px 3px;
+   }
+   #container {
+   	padding: auto;
+   	margin: auto;
+   }
+   #container p{
+   font-size: 18px;
+   }
+   #loisirs
+   {
+	margin-left: 100px;
+   }
+  header
+  {
+	margin-top: 10px;
+	padding-top: 10px;
+  }
+  .bloc{
+  	flex-direction: column;
+  	margin-left: 50px;
+}
+.date{
+	margin-left: 50px;
+}
+.puce{
+	margin-left: 50px;
+}
+br {
+	display: none;
+}
+
+}
