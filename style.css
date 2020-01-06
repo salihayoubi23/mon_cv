@@ -14,16 +14,15 @@ aside{
 .img{
     
     text-align: center;
-    margin: 20px;
-    
 }
-
 #profil{
-    border-radius: 70%;
-    box-shadow: 1px 1px 3px;
-    
-
+	border-radius:50%;
+	width:250px;
+	height:250px;
+	box-shadow:1px 1px 3px ; 
 }
+
+
 
 aside h4{
     background-color: #404040;
@@ -91,16 +90,7 @@ margin: 50px;
 	flex: 1;
 }
 
-#formation{
-	list-style-image: url('cap.png');
-	
-}
-#experiencepro{
-	list-style-image:url('pencil.png');
-}
-#recomondation{
-	list-style-image: url('suitcase.png');
-}
+
 .un{
 	margin-left: 50px;
 }
